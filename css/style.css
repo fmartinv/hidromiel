@@ -1,0 +1,15 @@
+.social{
+	text-align: center;
+}
+.social img{
+	width: 30%;
+	text-align: center;
+}
+#social-media{
+    padding-top: 30px;
+    padding-bottom: 70px;
+
+}
+#final{
+    list-style-type: none;
+}
