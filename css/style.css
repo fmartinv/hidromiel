@@ -18,3 +18,7 @@
     background-color: black;
     color: #f9c762;
 }
+
+html {
+    scroll-behavior: smooth;
+}
