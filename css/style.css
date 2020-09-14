@@ -12,4 +12,9 @@
 }
 #final{
     list-style-type: none;
+    color: #707070;
+}
+#contacto{
+    background-color: black;
+    color: #f9c762;
 }
