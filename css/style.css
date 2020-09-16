@@ -22,3 +22,12 @@
 html {
     scroll-behavior: smooth;
 }
+
+
+.textos{
+ color: rgb(122, 65, 47);
+}
+.boton  a{
+    color:#fff;
+    background-color: #6b1812;
+}
