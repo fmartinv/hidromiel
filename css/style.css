@@ -31,3 +31,9 @@ html {
     color:#fff;
     background-color: #6b1812;
 }
+span  :hover{
+    color:black;
+}
+span :active{
+    color:whitesmoke;
+}
