@@ -27,6 +27,9 @@ html {
 .textos{
  color: rgb(122, 65, 47);
 }
+.textos img{
+    width: 100%;
+}
 .boton  a{
     color:#fff;
     background-color: #6b1812;
