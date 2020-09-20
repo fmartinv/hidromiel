@@ -13,6 +13,7 @@
 #final{
     list-style-type: none;
     color: #707070;
+    justify-content: flex-end
 }
 #contacto{
     background-color: black;
@@ -30,4 +31,8 @@ html {
 .boton  a{
     color:#fff;
     background-color: #6b1812;
+}
+
+#final ul{
+    float: left;
 }
