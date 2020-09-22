@@ -9,32 +9,45 @@
     <meta name="author" content="kiwit software">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/375056b794.js" crossorigin="anonymous"></script>
     <title>cursos hidromiel,quesos</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
   </head>
   <body>
     <!-- NAVBAR -->
-    <div class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <nav class="navbar navbar-expand-md navbar-dark container">
-            <a class="navbar-brand" href="index.html">VELIH</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>   
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto mr-5">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#cursos">Cursos<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#autora">Sobre la Autora</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contacto">Contacto</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </div> 
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark" id="navbar">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">VELIH</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="collapse navbar-collapse" id="navbarsExample07">
+            <ul class="navbar-nav ml-md-auto">
+                <li class="nav-item active">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown07" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cursos</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown07">
+                          <a class="dropdown-item" href="curso1.html">Hidromiel Método Enológico</a>
+                          <a class="dropdown-item" href="curso2.html">Quesos de pasta blanda y quesos azules</a>
+                          <a class="dropdown-item" href="curso3.html">Quesos de pasta semidura-dura y pasta hilada</a>
+                        </div>
+                      </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#autora">Sobre la Autora</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     <!-- NAVBAR -->
 
       <!-- Principal Curso -->
@@ -74,16 +87,40 @@
                     </span>
                       </div>
 
+                      <div class="dates-info">
+                        <div class="container">
+                            <div class="info-item">
+                                <i class="far fa-play-circle fa-w-16 icon"></i>
+                                <h4>Inicio</h4>
+                                <span>Empieza hoy mismo!</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="far fa-calendar-alt"></i>
+                                <h4>Duración</h4>
+                                <span>5 semanas</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-user-cog"></i>
+                                <h4>Modalidad</h4>
+                                <span>A distancia</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-dollar-sign"></i>
+                                <h4>Precio</h4>
+                                <span>$ 2500</span>
+                            </div>
+                        </div>
+                        <img src="imagenes/banners/section-banner-quesos1.png" class="img-fluid" alt="Hidromiel">
+
+                    </div>
      </div><!-- Principal Curso -->
 
-
-
-     <!-- Autora -->
-     <div class="jumbotron" id="autora">
+    <!-- Autora -->
+    <div class="jumbotron" id="autora">
         <div class="jumbotron">
             <div class="container">
-                <h3 class="display-6">Sobre la Autora</h3>
-                <p><img class="mr-3 mt-3 rounded-circle" style="width:150px" src="imagenes/liliana.jpeg" alt="Liliana H Venanzi"></p>
+                <h3 class="display-6">SOBRE LA AUTORA</h3>
+                <img class="rounded-circle mr-3" height="100px" width="100px" src="imagenes/liliana.jpeg"  alt="Liliana H Venanzi">
                 <h4 class="card-title">Liliana H Venanzi</h4>
                 <hr class="my-4">
                 <p>Licenciada en Bromatología y Bromatóloga (Universidad Nacional de Cuyo).</p>
@@ -93,18 +130,9 @@
                 <p>Managment en Gestión de la Calidad. DGQ Alemania.</p>
                 <p>Docente Sistema e-Learning, desde 2008 en diferentes cursos agroalimentarios y bebidas fermentadas. </p>
             </div>
-        </div><!-- Autora -->
-
-
-
-
-   
-
-
-
-
-  
-
+        </div>
+    </div>
+    <!-- Autora -->
 
 
 

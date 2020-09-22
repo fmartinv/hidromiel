@@ -26,14 +26,14 @@ html {
 
 
 .textos{
- color: rgb(122, 65, 47);
+ color:#7D0037;
 }
 .textos img{
     width: 100%;
 }
 .boton  a{
     color:#fff;
-    background-color: #6b1812;
+    background-color:#7D0037;
 }
 span  :hover{
     color:black;
@@ -55,3 +55,43 @@ span :active{
   .containercurso img:hover{
       opacity: 1.0;
   }
+
+.dates-info {
+    margin: 70px 0;
+}
+
+.dates-info .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dates-info .container .info-item {
+    flex: 1 1;
+    text-align: center;
+    border: 1px solid #e1e1e1;
+}
+
+#navbar{
+    font-family: Lato;
+    background-color: #000000;
+    color: #F9C762;
+
+}
+
+.navbar-dark .navbar-brand{
+    color: #F9C762;
+    font: italic 30px Lato;
+}
+
+.jumbotron {
+    padding: 2rem 1rem;
+    justify-content: center;
+    display: grid;
+    color: #7D0037;
+}
+
+.display-6 {
+    display: flex;
+    justify-content: center;
+}
