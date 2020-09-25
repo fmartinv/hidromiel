@@ -49,12 +49,8 @@ span :active{
     
 
 } 
-.containercurso img{
-    opacity: 0.3;
-  }
-  .containercurso img:hover{
-      opacity: 1.0;
-  }
+
+
 
 .dates-info {
     margin: 70px 0;
@@ -76,6 +72,9 @@ span :active{
     font-family: Lato;
     background-color: #000000;
     color: #F9C762;
+}
+#navbarsExample07{
+    font-family: Lato;
 }
 
 .navbar-dark .navbar-brand{
