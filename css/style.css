@@ -42,13 +42,13 @@ span :active{
     color:whitesmoke;
 }
 
-.imagencurso{
+/* .imagencurso{
    
     width:  100%;
     height: 60vh;
     
 
-}
+} */
 .containercurso img{
     opacity: 0.3;
   }
