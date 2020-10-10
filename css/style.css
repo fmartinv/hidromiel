@@ -66,12 +66,13 @@ span :active{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    
 }
 
 .dates-info .container .info-item {
     flex: 1 1;
     text-align: center;
-    border: 1px solid #e1e1e1;
+    /* border: 1px solid #e1e1e1; */
 }
 
 #navbar{
@@ -118,3 +119,22 @@ span :active{
 .info-item{
     padding: 30px 0px;
 }
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) { 
+    .imagencurso{
+   
+        width:  50%;
+        height: 50vh;
+        
+    
+    } 
+}
+
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : landscape) { /* STYLES GO HERE */}
+
