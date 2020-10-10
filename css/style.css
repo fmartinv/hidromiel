@@ -126,7 +126,7 @@ and (min-device-width : 375px)
 and (max-device-width : 667px) { 
     .imagencurso{
    
-        width:  68%;
+        width:  62%;
         height: 40vh;
     } 
 
