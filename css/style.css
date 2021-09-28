@@ -1,7 +1,6 @@
 html {
   font-family: 'Lato', sans-serif;
   font-size: large;
-  
 }
 
 .social {
@@ -64,7 +63,6 @@ span :active {
 .dates-info .container .info-item {
   flex: 1 1;
   text-align: center;
-  /* border: 1px solid #e1e1e1; */
 }
 
 #navbar {
@@ -80,6 +78,9 @@ span :active {
   color: #f9c762;
   font-family: 'Pacifico', cursive;
   font-size: 30px;
+}
+.bg {
+  background-color: #000000;
 }
 
 .jumbotron {
